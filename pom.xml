@@ -44,7 +44,7 @@
     </dependencies>
 
     <properties>
-        <java.version>11</java.version>
+        <java.version>1.8</java.version>
     </properties>
 
     <build>
@@ -54,7 +54,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.7.0</version>
                 <configuration>
-                    <release>12</release>
+                    <target>1.8</target>
+                    <verbose>true</verbose>
                 </configuration>
             </plugin>
             <plugin>
